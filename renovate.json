@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "@nuxtjs"
+  ],
+  "baseBranches": [
+    "main"
+  ],
+  "rangeStrategy": "pin",
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "snyk"
+      ],
+      "groupName": "snyk"
+    }
+  ]
+}
